@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0699F2E42AA3991400E094D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699F2E32AA3991400E094D8 /* AppDelegate.m */; };
+		0699F2E72AA3991400E094D8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699F2E62AA3991400E094D8 /* SceneDelegate.m */; };
+		0699F2EA2AA3991400E094D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699F2E92AA3991400E094D8 /* ViewController.m */; };
+		0699F2ED2AA3991400E094D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0699F2EB2AA3991400E094D8 /* Main.storyboard */; };
+		0699F2F02AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0699F2EE2AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodeld */; };
+		0699F2F22AA3991500E094D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0699F2F12AA3991500E094D8 /* Assets.xcassets */; };
+		0699F2F52AA3991500E094D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0699F2F32AA3991500E094D8 /* LaunchScreen.storyboard */; };
+		0699F2F82AA3991500E094D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699F2F72AA3991500E094D8 /* main.m */; };
+		0699F3092AA3A19300E094D8 /* Form.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699F3082AA3A19300E094D8 /* Form.m */; };
+		0699F30C2AA3AFB900E094D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699F30B2AA3AFB900E094D8 /* QuartzCore.framework */; };
+		0699F3102AA3B01400E094D8 /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699F30E2AA3B01400E094D8 /* PopUpViewController.m */; };
+		0699F3132AA3C55900E094D8 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0699F30F2AA3B01400E094D8 /* PopUpViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0699F2DF2AA3991400E094D8 /* iOS-Form-Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Form-Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0699F2E22AA3991400E094D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0699F2E32AA3991400E094D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0699F2E52AA3991400E094D8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0699F2E62AA3991400E094D8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0699F2E82AA3991400E094D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0699F2E92AA3991400E094D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0699F2EC2AA3991400E094D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0699F2EF2AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Form_Objective_C.xcdatamodel; sourceTree = "<group>"; };
+		0699F2F12AA3991500E094D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0699F2F42AA3991500E094D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0699F2F62AA3991500E094D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0699F2F72AA3991500E094D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0699F3072AA3A19300E094D8 /* Form.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Form.h; sourceTree = "<group>"; };
+		0699F3082AA3A19300E094D8 /* Form.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Form.m; sourceTree = "<group>"; };
+		0699F30B2AA3AFB900E094D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0699F30D2AA3B01400E094D8 /* PopUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopUpViewController.h; sourceTree = "<group>"; };
+		0699F30E2AA3B01400E094D8 /* PopUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopUpViewController.m; sourceTree = "<group>"; };
+		0699F30F2AA3B01400E094D8 /* PopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0699F2DC2AA3991400E094D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699F30C2AA3AFB900E094D8 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0699F2D62AA3991300E094D8 = {
+			isa = PBXGroup;
+			children = (
+				0699F2E12AA3991400E094D8 /* iOS-Form-Objective-C */,
+				0699F2E02AA3991400E094D8 /* Products */,
+				0699F30A2AA3AFB900E094D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0699F2E02AA3991400E094D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0699F2DF2AA3991400E094D8 /* iOS-Form-Objective-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0699F2E12AA3991400E094D8 /* iOS-Form-Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				0699F2E22AA3991400E094D8 /* AppDelegate.h */,
+				0699F2E32AA3991400E094D8 /* AppDelegate.m */,
+				0699F2E52AA3991400E094D8 /* SceneDelegate.h */,
+				0699F2E62AA3991400E094D8 /* SceneDelegate.m */,
+				0699F2E82AA3991400E094D8 /* ViewController.h */,
+				0699F2E92AA3991400E094D8 /* ViewController.m */,
+				0699F2EB2AA3991400E094D8 /* Main.storyboard */,
+				0699F2F12AA3991500E094D8 /* Assets.xcassets */,
+				0699F2F32AA3991500E094D8 /* LaunchScreen.storyboard */,
+				0699F2F62AA3991500E094D8 /* Info.plist */,
+				0699F2F72AA3991500E094D8 /* main.m */,
+				0699F2EE2AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodeld */,
+				0699F3072AA3A19300E094D8 /* Form.h */,
+				0699F3082AA3A19300E094D8 /* Form.m */,
+				0699F30D2AA3B01400E094D8 /* PopUpViewController.h */,
+				0699F30E2AA3B01400E094D8 /* PopUpViewController.m */,
+				0699F30F2AA3B01400E094D8 /* PopUpViewController.xib */,
+			);
+			path = "iOS-Form-Objective-C";
+			sourceTree = "<group>";
+		};
+		0699F30A2AA3AFB900E094D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0699F30B2AA3AFB900E094D8 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0699F2DE2AA3991400E094D8 /* iOS-Form-Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0699F2FB2AA3991500E094D8 /* Build configuration list for PBXNativeTarget "iOS-Form-Objective-C" */;
+			buildPhases = (
+				0699F2DB2AA3991400E094D8 /* Sources */,
+				0699F2DC2AA3991400E094D8 /* Frameworks */,
+				0699F2DD2AA3991400E094D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Form-Objective-C";
+			productName = "iOS-Form-Objective-C";
+			productReference = 0699F2DF2AA3991400E094D8 /* iOS-Form-Objective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0699F2D72AA3991300E094D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0699F2DE2AA3991400E094D8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0699F2DA2AA3991300E094D8 /* Build configuration list for PBXProject "iOS-Form-Objective-C" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0699F2D62AA3991300E094D8;
+			productRefGroup = 0699F2E02AA3991400E094D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0699F2DE2AA3991400E094D8 /* iOS-Form-Objective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0699F2DD2AA3991400E094D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699F2F52AA3991500E094D8 /* LaunchScreen.storyboard in Resources */,
+				0699F2F22AA3991500E094D8 /* Assets.xcassets in Resources */,
+				0699F2ED2AA3991400E094D8 /* Main.storyboard in Resources */,
+				0699F3132AA3C55900E094D8 /* PopUpViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0699F2DB2AA3991400E094D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699F2F82AA3991500E094D8 /* main.m in Sources */,
+				0699F2EA2AA3991400E094D8 /* ViewController.m in Sources */,
+				0699F2F02AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodeld in Sources */,
+				0699F3102AA3B01400E094D8 /* PopUpViewController.m in Sources */,
+				0699F3092AA3A19300E094D8 /* Form.m in Sources */,
+				0699F2E42AA3991400E094D8 /* AppDelegate.m in Sources */,
+				0699F2E72AA3991400E094D8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0699F2EB2AA3991400E094D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0699F2EC2AA3991400E094D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0699F2F32AA3991500E094D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0699F2F42AA3991500E094D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0699F2F92AA3991500E094D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0699F2FA2AA3991500E094D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0699F2FC2AA3991500E094D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Form-Objective-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irving.iOS-Form-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0699F2FD2AA3991500E094D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Form-Objective-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irving.iOS-Form-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0699F2DA2AA3991300E094D8 /* Build configuration list for PBXProject "iOS-Form-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0699F2F92AA3991500E094D8 /* Debug */,
+				0699F2FA2AA3991500E094D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0699F2FB2AA3991500E094D8 /* Build configuration list for PBXNativeTarget "iOS-Form-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0699F2FC2AA3991500E094D8 /* Debug */,
+				0699F2FD2AA3991500E094D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0699F2EE2AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0699F2EF2AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodel */,
+			);
+			currentVersion = 0699F2EF2AA3991400E094D8 /* iOS_Form_Objective_C.xcdatamodel */;
+			path = iOS_Form_Objective_C.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0699F2D72AA3991300E094D8 /* Project object */;
+}
